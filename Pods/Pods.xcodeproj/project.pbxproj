@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16AC903ADF0ABCDBF7F488B2057C8987 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		370C11B6AD7700804351E2159EF5909C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		38E30ED6C02C6FF4B2B4632E0858F074 /* Pods-Mindvalley TestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BFF4617FC059A7745228EF9A236D56 /* Pods-Mindvalley TestUITests-dummy.m */; };
+		3EF1E44953D6A7D26CC4917B2C0EE9CC /* Pods-Mindvalley Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E698B93530B8B4E4F5AEBFC424F53BD /* Pods-Mindvalley Test-dummy.m */; };
+		4C3EE419494A65D2E1FAB0CF91B019CE /* CellAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A66F5CC22C06F96BCB3B3A7B2845FB /* CellAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D8BEEAF4A05FDD01673447D8D9274F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		50BFAC2C615718E2F3F11F99AA51AA50 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422976DCFEE665C0272A6EDBAB0CA688 /* Toast.swift */; };
+		9EA2B185691F95C0EA49B9640DEA9BA5 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A2264B53BB05B9AD0A9D237FE5441 /* Toast-Swift-dummy.m */; };
+		A5A6C72F1F5043D91773D6AA029E4496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		AA82BD983CC0564EB98F2B1ED625760B /* Pods-Mindvalley TestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C42A66400BA2AEF9FF39FAF45325E23 /* Pods-Mindvalley TestTests-dummy.m */; };
+		BEBAC0648B5C31698571E1833AB6C431 /* CellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374EF175CB44F092A9320B9E023DE05 /* CellAnimator.swift */; };
+		C0EB5BE9EA318CF93508A4E354CCF362 /* Pods-Mindvalley Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12530E8810C8CCC02AC35D9120CC1147 /* Pods-Mindvalley Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F82B4AE5DBE19753A99A30BC392270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		DE1C754AE2B8CB5A74DCD06185D67569 /* Pods-Mindvalley TestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C875B214F3E0D9D50B3BA98BD6CE6C3 /* Pods-Mindvalley TestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EECC95AA66DDDDA9C8C1E5D78BC8F297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		FAA4CEC105514BE058B9C0FD32D60BD9 /* CellAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861FF5C6C7B16A794D0195179391CA8 /* CellAnimator-dummy.m */; };
+		FB36E5227296C164162F1B3BCE9E7712 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CA0AF82A8D0D5F273D1BC022E8ACB7 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A390198045B7FD9BBB8B7357137EC /* Pods-Mindvalley TestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B969B009501FD37405B742322BFDC8D5 /* Pods-Mindvalley TestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88950FB116D2CE64636E05C561B3F244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4304DB264BCDDD2D8253AF198D0CB51E;
+			remoteInfo = "Toast-Swift";
+		};
+		D434F6E38787565F6534F59C25587972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A76353230C7D9CAA6173D7EC66E1544;
+			remoteInfo = CellAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DE434095A4497F53C589B10482B3DA /* Pods-Mindvalley TestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mindvalley TestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BA45B4C4ABDC56E2BACA4C63A13A67D /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9D4FEF070193F89B737E4E574E22EE /* CellAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CellAnimator.modulemap; sourceTree = "<group>"; };
+		1199FB18CF2E31F9C4C83F679323E612 /* Pods-Mindvalley TestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mindvalley TestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		12530E8810C8CCC02AC35D9120CC1147 /* Pods-Mindvalley Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mindvalley Test-umbrella.h"; sourceTree = "<group>"; };
+		1674D6181DAE4087655C4B14ADDEB8F4 /* Pods_Mindvalley_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mindvalley_Test.framework; path = "Pods-Mindvalley Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A22819DA67B9B914721607501032201 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FBF908B8276A27F093068CE646C1E8 /* Pods-Mindvalley TestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mindvalley TestTests-frameworks.sh"; sourceTree = "<group>"; };
+		258E0504E5E3A68589C19DF649C8A0E0 /* Pods-Mindvalley Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mindvalley Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2772D2A88DF0FDF763AE0298300399B4 /* Pods-Mindvalley Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mindvalley Test.debug.xcconfig"; sourceTree = "<group>"; };
+		29ACE1DF18B511E17CDCBAE4A81DF473 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		31BE4EC2E19F14A1D6BA53411FDCA2CE /* Pods-Mindvalley TestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mindvalley TestTests.modulemap"; sourceTree = "<group>"; };
+		3C42A66400BA2AEF9FF39FAF45325E23 /* Pods-Mindvalley TestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mindvalley TestTests-dummy.m"; sourceTree = "<group>"; };
+		422976DCFEE665C0272A6EDBAB0CA688 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		4670416D1C5B4F9C2BA9F0382D1AFA89 /* Pods-Mindvalley TestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mindvalley TestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B3A2264B53BB05B9AD0A9D237FE5441 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		4C875B214F3E0D9D50B3BA98BD6CE6C3 /* Pods-Mindvalley TestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mindvalley TestTests-umbrella.h"; sourceTree = "<group>"; };
+		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		55A5A797D897A2F14787F417F49EAF74 /* Pods-Mindvalley TestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mindvalley TestUITests.modulemap"; sourceTree = "<group>"; };
+		59A1041D1752978E355582C6ACEB800A /* Pods-Mindvalley TestUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mindvalley TestUITests-resources.sh"; sourceTree = "<group>"; };
+		5E80A77157E797E1C0E3DA7240AF1F47 /* Pods-Mindvalley Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mindvalley Test.modulemap"; sourceTree = "<group>"; };
+		72303CCBE06EB2DEC42D446904CC041E /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		745F32C9AE8E4D00E5C9858CDABF211C /* Pods_Mindvalley_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mindvalley_TestTests.framework; path = "Pods-Mindvalley TestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B41378599FE365ABBE8FEC8DB27A1E /* Pods-Mindvalley Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mindvalley Test-frameworks.sh"; sourceTree = "<group>"; };
+		7B5B9C292D4FDF73C5C093FEE1E15589 /* Pods-Mindvalley Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mindvalley Test-resources.sh"; sourceTree = "<group>"; };
+		7F17AB4A5BDD7964533AE3449F340B37 /* CellAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CellAnimator.xcconfig; sourceTree = "<group>"; };
+		822C33E85D60A6D111301BA36FA08B2E /* Pods-Mindvalley TestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mindvalley TestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8861FF5C6C7B16A794D0195179391CA8 /* CellAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CellAnimator-dummy.m"; sourceTree = "<group>"; };
+		8A7A9F51393E574E4C69E94239AE2678 /* Pods_Mindvalley_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mindvalley_TestUITests.framework; path = "Pods-Mindvalley TestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEBFE9FB71B2E7D8BE91C6FAEAF6F53 /* Pods-Mindvalley TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mindvalley TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B8CC24D5E2A21492DAE7F1A7C507872 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E698B93530B8B4E4F5AEBFC424F53BD /* Pods-Mindvalley Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mindvalley Test-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A66F5CC22C06F96BCB3B3A7B2845FB /* CellAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CellAnimator-umbrella.h"; sourceTree = "<group>"; };
+		9B68B0C257FC56462A549EDAF45B48DB /* CellAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CellAnimator.framework; path = CellAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A1D289370408293095FD2A3BD863DE /* Pods-Mindvalley TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mindvalley TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC9C09C5447519682812480A198806CF /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		AFD8DE5658EC33F1B29C1823D03B5816 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B969B009501FD37405B742322BFDC8D5 /* Pods-Mindvalley TestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mindvalley TestUITests-umbrella.h"; sourceTree = "<group>"; };
+		C68AFA5493D43797DFCF22CC160D0EB8 /* Pods-Mindvalley TestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mindvalley TestTests-resources.sh"; sourceTree = "<group>"; };
+		D2506AA3285F1EADF397A4856C54524C /* Pods-Mindvalley Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mindvalley Test.release.xcconfig"; sourceTree = "<group>"; };
+		D7A1FCB9FBFDEF3CBA43908FAB750715 /* Pods-Mindvalley TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mindvalley TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB1A84E65D36D51004B7AEF908EE1A8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD94B54E7E2087DEA3EDF05950865314 /* Pods-Mindvalley TestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mindvalley TestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E33EC216E85F6192C3AB5D5DCCAEC7A4 /* Pods-Mindvalley TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mindvalley TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3CA0AF82A8D0D5F273D1BC022E8ACB7 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		EAC6DC7357A45B38EFC335B401359724 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBE8804D62F2B2AED0D2E82948EA82D /* Pods-Mindvalley Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mindvalley Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1BFF4617FC059A7745228EF9A236D56 /* Pods-Mindvalley TestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mindvalley TestUITests-dummy.m"; sourceTree = "<group>"; };
+		F374EF175CB44F092A9320B9E023DE05 /* CellAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellAnimator.swift; path = CellAnimator/CellAnimator.swift; sourceTree = "<group>"; };
+		F5C4177108DFDE2DF0D0FC53A014FA1F /* CellAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CellAnimator-prefix.pch"; sourceTree = "<group>"; };
+		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0347DCA192E06940D438388222463A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8BEEAF4A05FDD01673447D8D9274F8 /* Foundation.framework in Frameworks */,
+				370C11B6AD7700804351E2159EF5909C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E9F10407DFEC8FCF39320862A611BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECC95AA66DDDDA9C8C1E5D78BC8F297 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22EB5B6C0E62902696A44CD9520A427C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A6C72F1F5043D91773D6AA029E4496 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A8980AB785466EF0C853AFCCF3CB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AC903ADF0ABCDBF7F488B2057C8987 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22E7B6DD3705D07AAAC7F6737DBB9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F82B4AE5DBE19753A99A30BC392270 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		226CEA7F05499AE04D93F40DB4E1F0E1 /* CellAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				F374EF175CB44F092A9320B9E023DE05 /* CellAnimator.swift */,
+				8B86EDEF4BCD34ACC404FED6463D42FE /* Support Files */,
+			);
+			name = CellAnimator;
+			path = CellAnimator;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5195E82ADBA3C11ED37F9BA96E2445FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				226CEA7F05499AE04D93F40DB4E1F0E1 /* CellAnimator */,
+				5739DC03305CE9062C9B5537279097A2 /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5739DC03305CE9062C9B5537279097A2 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				422976DCFEE665C0272A6EDBAB0CA688 /* Toast.swift */,
+				9457370556773F228E78687B56DBE533 /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		6DBD8015E7D1DB366E311E429A86036E /* Pods-Mindvalley Test */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A84E65D36D51004B7AEF908EE1A8F /* Info.plist */,
+				5E80A77157E797E1C0E3DA7240AF1F47 /* Pods-Mindvalley Test.modulemap */,
+				258E0504E5E3A68589C19DF649C8A0E0 /* Pods-Mindvalley Test-acknowledgements.markdown */,
+				EFBE8804D62F2B2AED0D2E82948EA82D /* Pods-Mindvalley Test-acknowledgements.plist */,
+				8E698B93530B8B4E4F5AEBFC424F53BD /* Pods-Mindvalley Test-dummy.m */,
+				78B41378599FE365ABBE8FEC8DB27A1E /* Pods-Mindvalley Test-frameworks.sh */,
+				7B5B9C292D4FDF73C5C093FEE1E15589 /* Pods-Mindvalley Test-resources.sh */,
+				12530E8810C8CCC02AC35D9120CC1147 /* Pods-Mindvalley Test-umbrella.h */,
+				2772D2A88DF0FDF763AE0298300399B4 /* Pods-Mindvalley Test.debug.xcconfig */,
+				D2506AA3285F1EADF397A4856C54524C /* Pods-Mindvalley Test.release.xcconfig */,
+			);
+			name = "Pods-Mindvalley Test";
+			path = "Target Support Files/Pods-Mindvalley Test";
+			sourceTree = "<group>";
+		};
+		7C202F084261DC9408BC54D4EB09516F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B68B0C257FC56462A549EDAF45B48DB /* CellAnimator.framework */,
+				1674D6181DAE4087655C4B14ADDEB8F4 /* Pods_Mindvalley_Test.framework */,
+				745F32C9AE8E4D00E5C9858CDABF211C /* Pods_Mindvalley_TestTests.framework */,
+				8A7A9F51393E574E4C69E94239AE2678 /* Pods_Mindvalley_TestUITests.framework */,
+				0BA45B4C4ABDC56E2BACA4C63A13A67D /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5195E82ADBA3C11ED37F9BA96E2445FF /* Pods */,
+				7C202F084261DC9408BC54D4EB09516F /* Products */,
+				B5C4A60625B2A006E95E03207A726A38 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B86EDEF4BCD34ACC404FED6463D42FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D9D4FEF070193F89B737E4E574E22EE /* CellAnimator.modulemap */,
+				7F17AB4A5BDD7964533AE3449F340B37 /* CellAnimator.xcconfig */,
+				8861FF5C6C7B16A794D0195179391CA8 /* CellAnimator-dummy.m */,
+				F5C4177108DFDE2DF0D0FC53A014FA1F /* CellAnimator-prefix.pch */,
+				97A66F5CC22C06F96BCB3B3A7B2845FB /* CellAnimator-umbrella.h */,
+				EAC6DC7357A45B38EFC335B401359724 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CellAnimator";
+			sourceTree = "<group>";
+		};
+		9457370556773F228E78687B56DBE533 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A22819DA67B9B914721607501032201 /* Info.plist */,
+				72303CCBE06EB2DEC42D446904CC041E /* Toast-Swift.modulemap */,
+				29ACE1DF18B511E17CDCBAE4A81DF473 /* Toast-Swift.xcconfig */,
+				4B3A2264B53BB05B9AD0A9D237FE5441 /* Toast-Swift-dummy.m */,
+				AC9C09C5447519682812480A198806CF /* Toast-Swift-prefix.pch */,
+				E3CA0AF82A8D0D5F273D1BC022E8ACB7 /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
+				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9A5659D39B7AD1A934F221EC09465BE9 /* Pods-Mindvalley TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD8DE5658EC33F1B29C1823D03B5816 /* Info.plist */,
+				55A5A797D897A2F14787F417F49EAF74 /* Pods-Mindvalley TestUITests.modulemap */,
+				4670416D1C5B4F9C2BA9F0382D1AFA89 /* Pods-Mindvalley TestUITests-acknowledgements.markdown */,
+				DD94B54E7E2087DEA3EDF05950865314 /* Pods-Mindvalley TestUITests-acknowledgements.plist */,
+				F1BFF4617FC059A7745228EF9A236D56 /* Pods-Mindvalley TestUITests-dummy.m */,
+				1199FB18CF2E31F9C4C83F679323E612 /* Pods-Mindvalley TestUITests-frameworks.sh */,
+				59A1041D1752978E355582C6ACEB800A /* Pods-Mindvalley TestUITests-resources.sh */,
+				B969B009501FD37405B742322BFDC8D5 /* Pods-Mindvalley TestUITests-umbrella.h */,
+				D7A1FCB9FBFDEF3CBA43908FAB750715 /* Pods-Mindvalley TestUITests.debug.xcconfig */,
+				8AEBFE9FB71B2E7D8BE91C6FAEAF6F53 /* Pods-Mindvalley TestUITests.release.xcconfig */,
+			);
+			name = "Pods-Mindvalley TestUITests";
+			path = "Target Support Files/Pods-Mindvalley TestUITests";
+			sourceTree = "<group>";
+		};
+		B5C4A60625B2A006E95E03207A726A38 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD8015E7D1DB366E311E429A86036E /* Pods-Mindvalley Test */,
+				F704EC971543C2338771BC83137D328A /* Pods-Mindvalley TestTests */,
+				9A5659D39B7AD1A934F221EC09465BE9 /* Pods-Mindvalley TestUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F704EC971543C2338771BC83137D328A /* Pods-Mindvalley TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B8CC24D5E2A21492DAE7F1A7C507872 /* Info.plist */,
+				31BE4EC2E19F14A1D6BA53411FDCA2CE /* Pods-Mindvalley TestTests.modulemap */,
+				822C33E85D60A6D111301BA36FA08B2E /* Pods-Mindvalley TestTests-acknowledgements.markdown */,
+				03DE434095A4497F53C589B10482B3DA /* Pods-Mindvalley TestTests-acknowledgements.plist */,
+				3C42A66400BA2AEF9FF39FAF45325E23 /* Pods-Mindvalley TestTests-dummy.m */,
+				24FBF908B8276A27F093068CE646C1E8 /* Pods-Mindvalley TestTests-frameworks.sh */,
+				C68AFA5493D43797DFCF22CC160D0EB8 /* Pods-Mindvalley TestTests-resources.sh */,
+				4C875B214F3E0D9D50B3BA98BD6CE6C3 /* Pods-Mindvalley TestTests-umbrella.h */,
+				E33EC216E85F6192C3AB5D5DCCAEC7A4 /* Pods-Mindvalley TestTests.debug.xcconfig */,
+				A4A1D289370408293095FD2A3BD863DE /* Pods-Mindvalley TestTests.release.xcconfig */,
+			);
+			name = "Pods-Mindvalley TestTests";
+			path = "Target Support Files/Pods-Mindvalley TestTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D46F8A9151A85FA437C47F873BF4706 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A390198045B7FD9BBB8B7357137EC /* Pods-Mindvalley TestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BF9B8F486934E68D6B0FBDCC672D3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB36E5227296C164162F1B3BCE9E7712 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FD59505206C723C38CDAC8D49888EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EB5BE9EA318CF93508A4E354CCF362 /* Pods-Mindvalley Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0F938F8B5DBB2832FEE383439D10B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1C754AE2B8CB5A74DCD06185D67569 /* Pods-Mindvalley TestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D7A7F5A226FC8943D7396EA99A82BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3EE419494A65D2E1FAB0CF91B019CE /* CellAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		098A94368279AB257105391C93F99723 /* Pods-Mindvalley Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8251B67756C8774D04D98CB058CCF2 /* Build configuration list for PBXNativeTarget "Pods-Mindvalley Test" */;
+			buildPhases = (
+				B193D392792F3962C72AFF5B6D830434 /* Sources */,
+				22EB5B6C0E62902696A44CD9520A427C /* Frameworks */,
+				51FD59505206C723C38CDAC8D49888EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44650C067C55D332A22477438825E54F /* PBXTargetDependency */,
+				1C716965CEF888C6CFE0D95935C5E3A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Mindvalley Test";
+			productName = "Pods-Mindvalley Test";
+			productReference = 1674D6181DAE4087655C4B14ADDEB8F4 /* Pods_Mindvalley_Test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0A76353230C7D9CAA6173D7EC66E1544 /* CellAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4609CB76E4AC5FEB6B0A96D6D267DB7E /* Build configuration list for PBXNativeTarget "CellAnimator" */;
+			buildPhases = (
+				6C1CDCE5D39B58C63DC6A09B602FE3FC /* Sources */,
+				13E9F10407DFEC8FCF39320862A611BC /* Frameworks */,
+				B3D7A7F5A226FC8943D7396EA99A82BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellAnimator;
+			productName = CellAnimator;
+			productReference = 9B68B0C257FC56462A549EDAF45B48DB /* CellAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4304DB264BCDDD2D8253AF198D0CB51E /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2363E4FB1909EED93B56E86AF3E183 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				DB651F00E4D3D005FCDB3B9F8B3550F8 /* Sources */,
+				0347DCA192E06940D438388222463A25 /* Frameworks */,
+				47BF9B8F486934E68D6B0FBDCC672D3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = 0BA45B4C4ABDC56E2BACA4C63A13A67D /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6648F893CD44B0E657201AF27B60F7DA /* Pods-Mindvalley TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D8DBE3FD61E8EF1CBC4EF8472E89DF /* Build configuration list for PBXNativeTarget "Pods-Mindvalley TestUITests" */;
+			buildPhases = (
+				4AFB6050C4FB25CD5C9C1635CF0B06E5 /* Sources */,
+				F22E7B6DD3705D07AAAC7F6737DBB9CC /* Frameworks */,
+				0D46F8A9151A85FA437C47F873BF4706 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Mindvalley TestUITests";
+			productName = "Pods-Mindvalley TestUITests";
+			productReference = 8A7A9F51393E574E4C69E94239AE2678 /* Pods_Mindvalley_TestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA9940DCA2487EBCE0FDB03F1F97C2DD /* Pods-Mindvalley TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D63A8F95EF63E35073F302D7755935 /* Build configuration list for PBXNativeTarget "Pods-Mindvalley TestTests" */;
+			buildPhases = (
+				ACCF0E2E5FE89AE994BF7EB9F3A04E94 /* Sources */,
+				92A8980AB785466EF0C853AFCCF3CB5F /* Frameworks */,
+				6B0F938F8B5DBB2832FEE383439D10B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Mindvalley TestTests";
+			productName = "Pods-Mindvalley TestTests";
+			productReference = 745F32C9AE8E4D00E5C9858CDABF211C /* Pods_Mindvalley_TestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7C202F084261DC9408BC54D4EB09516F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A76353230C7D9CAA6173D7EC66E1544 /* CellAnimator */,
+				098A94368279AB257105391C93F99723 /* Pods-Mindvalley Test */,
+				CA9940DCA2487EBCE0FDB03F1F97C2DD /* Pods-Mindvalley TestTests */,
+				6648F893CD44B0E657201AF27B60F7DA /* Pods-Mindvalley TestUITests */,
+				4304DB264BCDDD2D8253AF198D0CB51E /* Toast-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AFB6050C4FB25CD5C9C1635CF0B06E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E30ED6C02C6FF4B2B4632E0858F074 /* Pods-Mindvalley TestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1CDCE5D39B58C63DC6A09B602FE3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4CEC105514BE058B9C0FD32D60BD9 /* CellAnimator-dummy.m in Sources */,
+				BEBAC0648B5C31698571E1833AB6C431 /* CellAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCF0E2E5FE89AE994BF7EB9F3A04E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA82BD983CC0564EB98F2B1ED625760B /* Pods-Mindvalley TestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B193D392792F3962C72AFF5B6D830434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF1E44953D6A7D26CC4917B2C0EE9CC /* Pods-Mindvalley Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB651F00E4D3D005FCDB3B9F8B3550F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA2B185691F95C0EA49B9640DEA9BA5 /* Toast-Swift-dummy.m in Sources */,
+				50BFAC2C615718E2F3F11F99AA51AA50 /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C716965CEF888C6CFE0D95935C5E3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = 4304DB264BCDDD2D8253AF198D0CB51E /* Toast-Swift */;
+			targetProxy = 88950FB116D2CE64636E05C561B3F244 /* PBXContainerItemProxy */;
+		};
+		44650C067C55D332A22477438825E54F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CellAnimator;
+			target = 0A76353230C7D9CAA6173D7EC66E1544 /* CellAnimator */;
+			targetProxy = D434F6E38787565F6534F59C25587972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00FC597D17BDF135EC19A5BA547E8873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33EC216E85F6192C3AB5D5DCCAEC7A4 /* Pods-Mindvalley TestTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mindvalley TestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mindvalley TestTests/Pods-Mindvalley TestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mindvalley_TestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		02BDB0AFF03395D924DC39F81D060830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F17AB4A5BDD7964533AE3449F340B37 /* CellAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CellAnimator/CellAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CellAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CellAnimator/CellAnimator.modulemap";
+				PRODUCT_NAME = CellAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A0805C5C9152F515DA7374CBDD2F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A1D289370408293095FD2A3BD863DE /* Pods-Mindvalley TestTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mindvalley TestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mindvalley TestTests/Pods-Mindvalley TestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mindvalley_TestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2193B01C7AE215C0BDED3391F70BF115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ACE1DF18B511E17CDCBAE4A81DF473 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		679D9CB2CF8714DBEC46E9B6BC4EA532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2772D2A88DF0FDF763AE0298300399B4 /* Pods-Mindvalley Test.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mindvalley Test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mindvalley Test/Pods-Mindvalley Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mindvalley_Test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EF8561CBB6C47746E51E2E7C7E00256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92251A59C29C64729B1ED9AC538C20AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A1FCB9FBFDEF3CBA43908FAB750715 /* Pods-Mindvalley TestUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mindvalley TestUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mindvalley TestUITests/Pods-Mindvalley TestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mindvalley_TestUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3D9494549A03FFBC87780EADAA4C246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ACE1DF18B511E17CDCBAE4A81DF473 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B80191F8154FD771D111D3890B24D4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C87256653C73D70BED93C7AF0DB8EFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F17AB4A5BDD7964533AE3449F340B37 /* CellAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CellAnimator/CellAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CellAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CellAnimator/CellAnimator.modulemap";
+				PRODUCT_NAME = CellAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6DA430089B31E3B2AA7E5CDB53E6D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2506AA3285F1EADF397A4856C54524C /* Pods-Mindvalley Test.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mindvalley Test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mindvalley Test/Pods-Mindvalley Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mindvalley_Test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FABC3EF31ADBCEA6645BCD32806C0CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AEBFE9FB71B2E7D8BE91C6FAEAF6F53 /* Pods-Mindvalley TestUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mindvalley TestUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mindvalley TestUITests/Pods-Mindvalley TestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mindvalley_TestUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF8561CBB6C47746E51E2E7C7E00256 /* Debug */,
+				B80191F8154FD771D111D3890B24D4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D8DBE3FD61E8EF1CBC4EF8472E89DF /* Build configuration list for PBXNativeTarget "Pods-Mindvalley TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92251A59C29C64729B1ED9AC538C20AE /* Debug */,
+				FABC3EF31ADBCEA6645BCD32806C0CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4609CB76E4AC5FEB6B0A96D6D267DB7E /* Build configuration list for PBXNativeTarget "CellAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87256653C73D70BED93C7AF0DB8EFE2 /* Debug */,
+				02BDB0AFF03395D924DC39F81D060830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8251B67756C8774D04D98CB058CCF2 /* Build configuration list for PBXNativeTarget "Pods-Mindvalley Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679D9CB2CF8714DBEC46E9B6BC4EA532 /* Debug */,
+				E6DA430089B31E3B2AA7E5CDB53E6D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D63A8F95EF63E35073F302D7755935 /* Build configuration list for PBXNativeTarget "Pods-Mindvalley TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FC597D17BDF135EC19A5BA547E8873 /* Debug */,
+				1A0805C5C9152F515DA7374CBDD2F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2363E4FB1909EED93B56E86AF3E183 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2193B01C7AE215C0BDED3391F70BF115 /* Debug */,
+				A3D9494549A03FFBC87780EADAA4C246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
